@@ -52,7 +52,7 @@ ggplot(df, aes(x = Year, y = Avg_Attendance)) +
 #3
 m_df=read.csv('metabolite.csv',
                   header=T)
-metabolitesDF=m_df
+
 #3.a
 print(paste('The number of Alzheimer patients is ',
             length(which(m_df$Label == 'Alzheimer'))))
